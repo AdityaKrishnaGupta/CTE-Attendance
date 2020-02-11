@@ -1,0 +1,80 @@
+body{
+	color: black;
+
+}
+nav{
+	border-bottom: 5px solid rgba(0,180,0,.7);	
+}
+
+.navbar-brand{
+
+float: left;
+margin-left: 30px;
+
+}
+
+.navigation{
+
+list-style: none;
+
+}
+a:hover{
+	text-decoration: none;
+	color: rgba(0,180,0,.8);
+	transition: .3s;
+}
+
+a{
+
+	font-size: 20px;	
+	color: rgba(0,0,0,.7);
+}
+ul{
+	margin-left: 660px;
+    margin-right: 100px;
+
+}
+li{
+	display: inline-block;
+	color: black;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+
+img{
+	margin-left: 10px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.card{
+	margin: 30px;
+	color: black;
+}
+.card:hover{
+	transition: .7s;
+	transform: scale(1.1);
+	color: grey;
+	cursor: default;
+	filter: blur(2px);
+}
+.card a{
+	color: black;
+}
+
+.card a:hover{
+	color: rgba(0,180,0,.7);
+}
+#aditya
+{
+	background-color:#0b2027;
+}
+.card-text{
+	border-bottom: 2px pink solid;
+
+}

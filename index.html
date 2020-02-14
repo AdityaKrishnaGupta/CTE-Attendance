@@ -2,14 +2,17 @@
 <html>
 <head>
 	<title>CTE</title>
-	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="
-	anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase.js"></script>
 </head>
 <body>
-
-
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="index.html"><img src="logo.png" height="40px" width="90px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,100 +43,81 @@
 <div class="container">
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="attendance1.html" target="_blank" class="card-link">Attendance</a>
-  </div>
-</div>
-<div class="card card2" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="attendance2.html" class="card-link">Attendance</a>
+  	 <a href="attendance.html" class="attendance-button" id="AAD">Attendance</a>
+    <img src="AAD.jpg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Advanced Android Dev</span>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
-  </div>
-</div>
-<div class="card card2" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
+    <img src="ADR.jpg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Advanced Robotics</span>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
-  </div>
-</div>
-<div class="card card2" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
+    <img src="DLC.jpg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Deep Learning</span>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
-  </div>
-</div>
-<div class="card card2" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
+    <img src="FSW.png" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Full Stack Web Dev<span>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
-  </div>
-</div>
-<div class="card card2" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
+    <img src="GAD.jpeg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Game Developement</span>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Android</h5>
-    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://bpgc-cte.org/courses/5e14cea3786c0c44c0e54bc8/view/" target="_blank" class="card-link">Check Course</a>
-    <a href="#" class="card-link">Attendance</a>
+    <img src="German.jpg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">German Language</span>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <img src="GMT.jpg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Guitar and Music Theory</span>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <img src="GRD.png" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Graphics Design</span>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <img src="IQF.jpeg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Finance Time Series</span>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <img src="ITC.jpg" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Competetive Coding</span>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <img src="SOL.png" height="160px" ; width="250px"; style="margin: 0px;border-bottom:2px solid green ">
+    <span class="course-name">Solid Works and Ansys</span>
   </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+<script>
+function uploadFunction() {
+    document.getElementById("demo").innerHTML ='I got changed';
+}
+</script>
+    <script src="index.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

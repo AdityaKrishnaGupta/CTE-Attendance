@@ -55,6 +55,7 @@ img{
 .card{
 	margin: 30px;
 	color: black;
+	border-radius: 7px;
 }
 .card:hover{
 	transition: .7s;
@@ -62,19 +63,25 @@ img{
 	color: grey;
 	cursor: default;
 	filter: blur(2px);
-}
-.card a{
-	color: black;
+
 }
 
-.card a:hover{
-	color: rgba(0,180,0,.7);
-}
 #aditya
 {
 	background-color:#0b2027;
 }
-.card-text{
-	border-bottom: 2px pink solid;
 
+.course-name
+{
+	text-align: center;
+	font-size: 20px;
+}
+.attendance-button:hover:enabled{
+visibility: hidden;
+}
+.attendance-button:enabledr{
+	border:1px solid black;
+	border-radius: 5px; 
+	margin-left: 70px;
+	visibility: visible;
 }
